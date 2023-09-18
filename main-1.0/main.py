@@ -112,7 +112,7 @@ class Dino(pygame.sprite.Sprite):
                 np.random.uniform(-5*lr, 5*lr, (i,3)),
                 np.random.uniform(-1*lr, 1*lr, (j,i)),
                 np.random.uniform(-1*lr, 1*lr, (3,j)),
-                np.random.uniform(-5*lr, 5*lr, (i,1)),
+                np.random.uniform(-1*lr, 1*lr, (i,1)),
                 np.random.uniform(-1*lr, 1*lr, (j,1)),
                 np.random.uniform(-1*lr, 1*lr, (3,1))]
 
